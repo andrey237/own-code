@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+main,
+a,
+footer {
+  display: block;
+}
+
+body {
+  font: 1.2em/1.2 Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 70px 0;
+}
+
+.flex-container,
+.container,
+.row,
+.hor-menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.container {
+  /*margin: 0 auto;*/
+  min-width: 270px;
+  /*max-width: 1170px;*/
+}
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #070;
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 2em;
+    margin-bottom: 60px;
+  }
+
+  .error {
+    color: #700;
+  }
+
+  .fatal-error {
+    margin-top: 100px;
+    font-size: 3em;
+    text-transform: none;
+  }
+
+    .fatal-error span {
+      text-transform: uppercase;
+    }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .image-wrap {
+    overflow: hidden;
+  }
+
+    .image-wrap img {
+      width: 100%;
+    }
+
+  a {
+    text-decoration: none;
+  }
+
+  input,
+  select,
+  option,
+  textarea,
+  .button {
+    padding: 0 20px;
+    font-size: 1.5em;
+    line-height: 2.2;
+    text-align: center;
+  }
+
+  input,
+  select,
+  textarea {
+    border: 2px solid #070;
+  }
+
+  textarea {
+    padding: 20px;
+    height: 300px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .button {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #070;
+    cursor: pointer;
+  }
+
+  .delete {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #b00;
+  }
+
+  .row,
+  .col {
+    margin: 10px;
+  }
+
+  .row {
+    width: inherit;
+  }
+
+  .col {
+    width: 270px;
+  }
+
+  .col2 {
+    width: 570px;
+  }
+
+    .col b,
+    .col a {
+      text-align: center;
+    }
+
+    .col b {
+      display: block;
+      font-size: 1.5em;
+    }
+
+    .col a {
+      margin: 10px auto 0;
+    }
+
+  .cart .row {
+    align-items: center;
+  }
+
+  .cart .image-wrap {
+    width: 200px;
+  }
